@@ -20,6 +20,7 @@ new_blocklist = sorted(list(set(new_blocklist)))
 print(f"New adlist size: {len(new_blocklist)}")
 
 with open("blocklist.txt", "w") as f:
+    f.write("# List created with https://github.com/RAV64/hostlist-duplicate-remover\n")
     f.write(f"# Blocklist size: {len(new_blocklist)}\n")
     f.write("# Combined blocklist from:\n")
     for blocklist in sorted(blocklists):
