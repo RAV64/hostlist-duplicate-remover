@@ -14,4 +14,4 @@ Run the script `python3 main.py`
 
 ## Disclaimer!
 
-I've only tested this with about 10 different lists and for [Pi-hole](https://pi-hole.net/) only! Some lists might have a format which breaks this functionality and I don't know which applications support the format this script outputs!
+I've only tested this with about 10 different lists and for [Pi-hole](https://pi-hole.net/) only! Some lists might have a format which breaks functionality of this script and I don't know which applications support the format this script outputs!
