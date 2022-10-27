@@ -11,3 +11,7 @@ Add links to your lists into blocklists.txt - one link per line - nothing extra.
 Run the script `python3 main.py`
 
 🎉 Your new blocklist is in blocklist.txt 🎉
+
+## Disclaimer!
+
+I've only tested this with about 10 different lists and for [Pi-hole](https://pi-hole.net/) only! Some lists might have a format which breaks this functionality and I don't know which applications support the format this script outputs!
